@@ -212,7 +212,9 @@ var theme = function () {
         // CountDown
         initCountDown: function () {
             var austDay = new Date();
-            austDay = new Date(austDay.getFullYear() + 1, 1 - 1, 26);
+            // austDay = new austDay.setFullYear(2023,05,25);
+            // console.log(austDay.setDate(20));
+            austDay = new Date(austDay.getFullYear() + 1, 1 - 9, 25);
             $('#defaultCountdown').countdown({until: austDay});
             $('#year').text(austDay.getFullYear());
         },
