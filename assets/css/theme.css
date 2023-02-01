@@ -3536,6 +3536,7 @@ div.pp_overlay {
   z-index: 1;
   min-height: 200px;
   width: 350px;
+  float: right;
 }
 @media (max-width: 767px) {
   .container.gmap-background .on-gmap {

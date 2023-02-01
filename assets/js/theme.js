@@ -311,12 +311,12 @@ var theme = function () {
                 var mapOptions = {
                     scrollwheel: false,
                     zoom: 12,
-                    center: new google.maps.LatLng(40.9807648, 28.9866516) // map coordinates
+                    center: new google.maps.LatLng(25.2258049, 55.2841864) // map coordinates
                 };
                 map = new google.maps.Map(document.getElementById('map-canvas'),
                     mapOptions);
                 marker = new google.maps.Marker({
-                    position: new google.maps.LatLng(41.0096559,28.9755535), // marker coordinates
+                    position: new google.maps.LatLng(25.2258049,55.2841864), // marker coordinates
                     map: map,
                     icon: image,
                     title: 'Hello World!'
