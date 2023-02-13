@@ -925,6 +925,14 @@ textarea {
   font-weight: bold;
   margin-top: -12px;
 }
+@media (max-width:500px)
+{
+  .logo
+  {
+    font-size: 20px;
+  }
+
+}
 .logo a {
   color: #ffffff;
   display: inline-block;
@@ -4588,5 +4596,16 @@ body.rtl .pagination > li > a {
   body.rtl .navigation.opened .menu-toggle {
     right: auto;
     left: 15px;
+  }
+}
+.html 
+{
+  scroll-behavior: smooth;
+}
+@media (max-width: 767px) {
+   .register-btn
+   {
+    display: flex;
+    justify-content: center;
   }
 }
