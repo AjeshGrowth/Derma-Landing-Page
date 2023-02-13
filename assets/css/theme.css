@@ -266,7 +266,7 @@ body.boxed {
 }
 .wide .page-section.color,
 .boxed .page-section.color > .container {
-  background-color: #002fac;
+  background-color:#0492C2;
   color: #ffffff;
 }
 .wide .page-section.image,
@@ -442,7 +442,7 @@ h6 .glyphicon {
   color: #dc143c;
 }
 .section-title .rhex {
-  background-color: #002fac;
+  background-color:#0492C2;
 }
 .color .section-title .rhex {
   background-color: #ffffff;
@@ -672,8 +672,8 @@ hr.page-divider.small:after {
 }
 .btn-theme {
   color: #ffffff;
-  background-color: #002fac;
-  border-color: #002fac;
+  background-color:#0492C2;
+  border-color:#0492C2;
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 700;
@@ -1708,6 +1708,7 @@ textarea {
   height: 170px !important;
   border-radius: 50% !important;
   text-align: center;
+  align-items: center;
 }
 .btn-play .fa {
   width: 145px;
@@ -1717,13 +1718,14 @@ textarea {
   line-height: 150px;
   margin-top: 12px;
   background-color: #ffffff;
-  color: #dc143c;
+  color: #386090;
+  padding-left: 12px;
 }
 .btn-play:hover {
-  border-color: #dc143c;
+  border-color: #386090;
 }
 .btn-play:hover .fa {
-  background-color: #dc143c;
+  background-color: #386090;
 }
 .btn-play:hover .fa {
   color: #ffffff;
@@ -1974,14 +1976,14 @@ textarea {
 
 .schedule-wrapper {
   margin-top: 30px;
-  border: solid 1px #002fac;
+  border: solid 1px#0492C2;
   border-top: none;
   border-bottom-width: 10px;
   border-radius: 30px 30px 10px 10px;
   overflow: hidden;
 }
 .schedule-tabs.lv1 {
-  background-color: #002fac;
+  background-color:#0492C2;
   color: #ffffff;
 }
 .schedule-tabs.lv2 {
@@ -3568,7 +3570,7 @@ div.pp_overlay {
   line-height: 30px;
 }
 .container.gmap-background .on-gmap.color {
-  background-color: #002fac;
+  background-color:#0492C2;
   color: #fefefe;
 }
 

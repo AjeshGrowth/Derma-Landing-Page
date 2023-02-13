@@ -404,6 +404,7 @@
 }
 .fa-play:before {
   content: "\f04b";
+  padding-left: 3px;
 }
 .fa-pause:before {
   content: "\f04c";
