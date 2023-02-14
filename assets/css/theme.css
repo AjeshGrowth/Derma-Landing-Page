@@ -4605,7 +4605,18 @@ body.rtl .pagination > li > a {
 @media (max-width: 767px) {
    .register-btn
    {
+    padding-top: 15px;
+    padding-bottom: 15px;
     display: flex;
     justify-content: center;
   }
+}
+@media (max-width: 767px) {
+  .download-btn
+  {
+    width: 100%;
+    padding-bottom: 30px;
+   display: flex;
+   justify-content: center;
+ }
 }
